@@ -32,6 +32,7 @@ Ensure you have the following software installed and configured:
    * Click **Clean and Build** to compile all Java classes and package the web archive.
    * Right-click the project again and click **Run** (or press `F6`).
    * NetBeans 8.2 will automatically launch your default browser and load the application (`index.html`).
+   * URL Access: `http://localhost:8080/CSC584-Individual-Assignment-1/`
 
 4. **Using the Application:**
    * Fill out the personal profile form on the main page.
