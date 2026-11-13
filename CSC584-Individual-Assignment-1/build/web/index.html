@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Profile Form</title>
+</head>
+<body>
+    <div class="container">
+    <h2>Personal Profile Form</h2>
+
+    <form action="ProfileServlet" method="post">
+        
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="e.g. Abbas Bin Ghaffar" required >
+        </div>
+        <br>
+        
+        <div>
+            <label for="studentId">Student ID:</label>
+            <input type="text" id="studentId" name="studentId" required pattern="[0-9]+" title="Please enter numbers only" placeholder="e.g. 2025123456">
+        </div>
+
+        <div>
+            <label for="programme">Programme:</label>
+            <input type="text" id="programme" name="programme" placeholder="e.g. CDCS240" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="e.g. 2025123450@student.uitm.edu.my" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="hobbies">Hobbies:</label>
+            <input type="text" id="hobbies" name="hobbies" placeholder="e.g. Travelling, Reading" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="bio">Short Self-Introduction:</label>
+            <textarea id="bio" name="bio" rows="4" cols="40" placeholder="Write an introduction about yourself" required></textarea>
+        </div>
+        <br>
+
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+
+    </form>
+    </div>
+</body>
+</html>
